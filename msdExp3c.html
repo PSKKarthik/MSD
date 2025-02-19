@@ -1,0 +1,20 @@
+<html>
+<head>
+<title>JavaScript</title>
+</head>
+<body>
+<h4>Your Ticket Details</h4>
+<br>
+
+<script>
+let x = Number(prompt("Enter number of tickets:")); // Fixed the missing closing parenthesis
+document.write("Total number of seats booked: " + x); // Corrected the text
+document.write("<br>");
+document.write("Cost of tickets: " + (150 * x)); // Fixed string concatenation
+document.write("<br>");
+document.write("Festival Season Discount: " + (10 * x)); // Fixed string concatenation
+document.write("<br>");
+document.write("Total cost after discount is: " + ((x * 150) - (x * (10 / 100) * 150))); // Fixed the syntax for writing to document
+</script>
+</body>
+</html>
